@@ -1,0 +1,105 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.coverage
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Generated/
+**/generated/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Entity Framework migrations temporary files
+*.csproj.EntityFrameworkCore.targets
+
+# User secrets
+**/secrets.json
+secrets.json
+
+# Configuration files with sensitive data
+appsettings.Development.json
+appsettings.*.local.json
+
+# Logs
+logs/
+*.log
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Node / Angular (if frontend exists)
+node_modules/
+dist/
+.angular/
+.angular/cache/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Docker
+docker-compose.override.yml
+
+# Publish output
+publish/
+**/publish/
+
+# Coverage tools
+coverage/
+.coverage/
+
+# Azure / Cloud generated files
+.azure/
