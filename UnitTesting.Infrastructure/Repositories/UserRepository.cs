@@ -1,6 +1,7 @@
 ﻿
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using UnitTesting.Application.Interfaces;
 using UnitTesting.Domain.Entities;
 using UnitTesting.Infrastructure.Context;
@@ -10,7 +11,6 @@ namespace UnitTesting.Infrastructure.Repositories
     public class UserRepository : IUserRepository
     {
         private readonly ApplicationDbContext _context;
-
         public UserRepository(ApplicationDbContext context)
         {
             _context = context;
